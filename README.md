@@ -33,11 +33,22 @@ This cleanup script will:
 
 ### Windows
 
-1. Download `cleanup-windows.bat`
-2. Double click the file
-3. The script will stop the tracker and remove config files
+Run the following commands in Terminal:
 
----
+You can run the cleanup script using either **Windows PowerShell** or **Command Prompt (CMD)**.
+
+### Windows Powershell
+
+```powershell
+curl https://raw.githubusercontent.com/Abhishekdev9/pms-config-cleanup/main/cleanup-windows.bat -o cleanup-windows.bat; .\cleanup-windows.bat 
+```
+
+### Command Prompt (CMD)
+
+```powershell
+curl -o cleanup-windows.bat https://raw.githubusercontent.com/Abhishekdev9/pms-config-cleanup/main/cleanup-windows.bat && cleanup-windows.bat
+```
+
 
 ### macOS
 
