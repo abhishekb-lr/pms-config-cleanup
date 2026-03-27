@@ -13,7 +13,6 @@ If these old configs remain, the tracker may fail to start correctly or may not 
 
 This cleanup script will:
 
-- Stop the **LR-PMS-Tracker** application if it is running
 - Remove locally stored configuration files
 - Allow a fresh login and tracking session
 
@@ -30,6 +29,8 @@ This cleanup script will:
 ---
 
 ## How to Run
+
+Kindly quit the LR-PMS-Tracker application before running the command below.
 
 ### Windows
 
@@ -76,7 +77,7 @@ chmod +x cleanup-linux.sh
 
 ## After Cleanup
 
-1. Install or open the **latest LR-PMS-Tracker version**
+1. Install or open the ** LR-PMS-Tracker 1.0.22**
 2. Login again
 3. Start tracking normally
 
